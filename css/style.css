@@ -220,12 +220,20 @@ td { vertical-align: top; }
 
 
 
+#countbox-inner {
+  display: none;
+  color: #DDD;
+}
 
 
+.preloader_single_box{  
+  /*border: 1px solid red;*/
+}
 
-
-
-
+/*.preloader_single_box:hover{
+  background-color: transparent !important;  
+  display: hidden;
+}*/
 
 
 

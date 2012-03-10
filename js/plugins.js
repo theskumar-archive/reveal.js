@@ -9,3 +9,7 @@ window.log = function f(){ log.history = log.history || []; log.history.push(arg
 
 // place any jQuery/helper plugins in here, instead of separate, slower script files.
 
+// Delay Plugin for jQuery
+// - http://www.evanbot.com
+// - © 2008 Evan Byrne
+
