@@ -2,7 +2,7 @@
 	Saurabh Kumar /@saurabh_world
 */
 
-var bg_overlay_url = "img/bg-overlady.jpg";   //edit this.
+var bg_overlay_url = "img/bg-overlay.jpg";   //edit this.
 var bg_color = "red";
 
 var debug = true;
