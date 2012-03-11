@@ -6,9 +6,8 @@ var bg_overlay_url = "img/bg-overlay.jpg";   //edit this.
 
 var debug = true;
 
-$(document).ready(function(){
+$(document).ready(function(){	
 	
-
 	var box_size = 40;	
 	
 	var box_width = box_size;	
@@ -47,7 +46,7 @@ $(document).ready(function(){
 			$el.css('width',box_width+'px');
 			$el.css('position','absolute');
 			$el.css('z-index','1000');			
-			$el.css('backgroundImage','url('+bgurl+')');			
+			$el.css('backgroundImage','url('+bg_overlay_url+')');			
 
 
 			$el.addClass('preloader_single_box');
