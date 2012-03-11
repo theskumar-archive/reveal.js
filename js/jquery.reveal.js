@@ -2,7 +2,8 @@
 	Saurabh Kumar /@saurabh_world
 */
 
-var bg_overlay_url = "img/bg-overlay.jpg";   //edit this.
+var bg_overlay_url = "img/bg-overlady.jpg";   //edit this.
+var bg_color = "red";
 
 var debug = true;
 
@@ -46,7 +47,8 @@ $(document).ready(function(){
 			$el.css('width',box_width+'px');
 			$el.css('position','absolute');
 			$el.css('z-index','1000');			
-			$el.css('backgroundImage','url('+bg_overlay_url+')');			
+			$el.css('backgroundImage','url('+bg_overlay_url+')');
+			$el.css('backgroundColor', bg_color);
 
 
 			$el.addClass('preloader_single_box');
